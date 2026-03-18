@@ -1,0 +1,823 @@
+{
+    "dashboards": [
+        {
+            "dashboard": {
+                "name": "8ef45478-d0e1-467b-9fd3-4ac879ac8d35",
+                "displayName": "CYJAX Threat Intelligence IOC Correlation",
+                "description": "The Correlation dashboard is designed to identify relationships across indicators and events from other sources.",
+                "definition": {
+                    "filters": [
+                        {
+                            "id": "GlobalTimeFilter",
+                            "dataSource": "GLOBAL",
+                            "filterOperatorAndFieldValues": [
+                                {
+                                    "filterOperator": "PAST",
+                                    "fieldValues": [
+                                        "7",
+                                        "DAY"
+                                    ]
+                                }
+                            ],
+                            "displayName": "Global Time Filter",
+                            "chartIds": [
+                                "337102ef-9a12-4cb7-9bea-23ccc928fe3c",
+                                "e7c4c2ef-a812-4b56-9fee-f7d6ae74cca2",
+                                "d2a75c85-e74b-4c52-8bf2-929a057cbd7a",
+                                "311d87aa-993f-4d79-ba93-7ee55824c968",
+                                "3f999689-8b93-4a6d-848c-4c5f562da7c9",
+                                "418c65d0-a11a-4cb1-ac7d-7a4dd6b35c4b",
+                                "79190237-28a3-41be-8d6b-36fe0ebb7bd0",
+                                "523da3e2-6980-4eef-875f-adcabbc31d33"
+                            ],
+                            "isStandardTimeRangeFilter": true,
+                            "isStandardTimeRangeFilterEnabled": true
+                        },
+                        {
+                            "id": "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                            "dataSource": "IOC_MATCHES",
+                            "fieldPath": "ioc.severity",
+                            "filterOperatorAndFieldValues": [
+                                {
+                                    "filterOperator": "EQUAL",
+                                    "fieldValues": [
+                                        ""
+                                    ]
+                                }
+                            ],
+                            "displayName": "Indicator Handling Condition",
+                            "chartIds": [
+                                "337102ef-9a12-4cb7-9bea-23ccc928fe3c",
+                                "e7c4c2ef-a812-4b56-9fee-f7d6ae74cca2",
+                                "311d87aa-993f-4d79-ba93-7ee55824c968",
+                                "3f999689-8b93-4a6d-848c-4c5f562da7c9",
+                                "523da3e2-6980-4eef-875f-adcabbc31d33"
+                            ]
+                        },
+                        {
+                            "id": "d4688810-0105-4941-b52d-c86daa3217df",
+                            "dataSource": "IOC_MATCHES",
+                            "fieldPath": "ioc.ioc_type",
+                            "filterOperatorAndFieldValues": [
+                                {
+                                    "filterOperator": "EQUAL",
+                                    "fieldValues": [
+                                        ""
+                                    ]
+                                }
+                            ],
+                            "displayName": "Indicator Type",
+                            "chartIds": [
+                                "3f999689-8b93-4a6d-848c-4c5f562da7c9",
+                                "311d87aa-993f-4d79-ba93-7ee55824c968",
+                                "d2a75c85-e74b-4c52-8bf2-929a057cbd7a",
+                                "337102ef-9a12-4cb7-9bea-23ccc928fe3c",
+                                "523da3e2-6980-4eef-875f-adcabbc31d33",
+                                "418c65d0-a11a-4cb1-ac7d-7a4dd6b35c4b",
+                                "79190237-28a3-41be-8d6b-36fe0ebb7bd0",
+                                "e7c4c2ef-a812-4b56-9fee-f7d6ae74cca2"
+                            ]
+                        }
+                    ],
+                    "charts": [
+                        {
+                            "dashboardChart": "337102ef-9a12-4cb7-9bea-23ccc928fe3c",
+                            "chartLayout": {
+                                "startX": 36,
+                                "spanX": 60,
+                                "startY": 61,
+                                "spanY": 25
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "311d87aa-993f-4d79-ba93-7ee55824c968",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 96,
+                                "startY": 86,
+                                "spanY": 33
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "94eba102-ad48-4540-a7dc-f539f7ff3a09",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 96,
+                                "startY": 0,
+                                "spanY": 12
+                            }
+                        },
+                        {
+                            "dashboardChart": "d2a75c85-e74b-4c52-8bf2-929a057cbd7a",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 96,
+                                "startY": 25,
+                                "spanY": 27
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "3f999689-8b93-4a6d-848c-4c5f562da7c9",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 36,
+                                "startY": 61,
+                                "spanY": 25
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "79190237-28a3-41be-8d6b-36fe0ebb7bd0",
+                            "chartLayout": {
+                                "startX": 33,
+                                "spanX": 32,
+                                "startY": 12,
+                                "spanY": 13
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "418c65d0-a11a-4cb1-ac7d-7a4dd6b35c4b",
+                            "chartLayout": {
+                                "startX": 65,
+                                "spanX": 31,
+                                "startY": 12,
+                                "spanY": 13
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "e7c4c2ef-a812-4b56-9fee-f7d6ae74cca2",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 96,
+                                "startY": 119,
+                                "spanY": 26
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "523da3e2-6980-4eef-875f-adcabbc31d33",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 33,
+                                "startY": 12,
+                                "spanY": 13
+                            },
+                            "filtersIds": [
+                                "GlobalTimeFilter",
+                                "2b76f5a7-a898-4f7f-9c2f-bdb97011cb5c",
+                                "d4688810-0105-4941-b52d-c86daa3217df"
+                            ]
+                        },
+                        {
+                            "dashboardChart": "af94b5cf-75ae-4cb2-82e7-8cd38b0e44e5",
+                            "chartLayout": {
+                                "startX": 0,
+                                "spanX": 96,
+                                "startY": 52,
+                                "spanY": 9
+                            }
+                        }
+                    ]
+                },
+                "type": "CUSTOM",
+                "etag": "5f21e14d6139589341f253af8042c5075e3a367d73adeb1696405db389f8ce34",
+                "access": "DASHBOARD_PRIVATE"
+            },
+            "dashboardCharts": [
+                {
+                    "name": "94eba102-ad48-4540-a7dc-f539f7ff3a09",
+                    "displayName": "markdown",
+                    "visualization": {
+                        "markdown": {
+                            "content": "# ![CyjaxLogo](https://github.com/Cyjax/CYJAX-Google-SecOps-Integration/blob/main/siem/Logo/cyjax_logo.png?raw=true) Cyjax Threat Intelligence Correlation Dashboard\n---\nThe Correlation dashboard is designed to identify relationships of Cyjax Threat Intelligence indicators and events from other sources.\n\n1. The Correlation Dashboard identifies relationships between Cyjax threat indicators and security events from across the environment, enabling analysts to detect active threats and assess real-world IOC matches.\n2. Features a Classification filter for targeted analysis, allowing users to focus on specific threat categories and severity levels.\n\n",
+                            "properties": {
+                                "backgroundColor": "transparent"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_MARKDOWN",
+                    "etag": "8c9adcefbfd67d38610fe5f134dce3abe3c6bcd76e20bded7f410a2906c275a4"
+                },
+                {
+                    "name": "d2a75c85-e74b-4c52-8bf2-929a057cbd7a",
+                    "displayName": "IOC BY CLASSIFICATION",
+                    "description": "Showing CYJAX Threat Intelligence IOC distribution by Handling condition.",
+                    "chartDatasource": {
+                        "dashboardQuery": "3502ae4b-ae21-4895-831e-97eb03bedadb",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "PIE",
+                                "encode": {
+                                    "value": "count",
+                                    "itemName": "handling_condition"
+                                },
+                                "dataLabel": {
+                                    "show": true
+                                },
+                                "radius": [
+                                    "0%",
+                                    "70%"
+                                ],
+                                "itemStyle": {
+                                    "color": "b=>{const {map:c}=OOf(this.theme);b=JQf(b,nPf(this.form.controls.seriesConfig.getRawValue()),a);a=b.nextColorIndex;let d;return(d=\nc.get(b.color))!=null?d:b.color}"
+                                },
+                                "itemColors": {
+                                    "colors": [
+                                        {
+                                            "key": "Amber",
+                                            "value": {
+                                                "color": "#1a73e8",
+                                                "label": "Amber"
+                                            }
+                                        },
+                                        {
+                                            "key": "Red",
+                                            "value": {
+                                                "color": "#eb730a",
+                                                "label": "Red"
+                                            }
+                                        },
+                                        {
+                                            "key": "Green",
+                                            "value": {
+                                                "color": "#10a3b7",
+                                                "label": "Green"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "top": 12,
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "e9ad5a504c8ff55006fcba98ba67203fc3ae99efaaaa2cdf1711d1a23de1314e",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "e7c4c2ef-a812-4b56-9fee-f7d6ae74cca2",
+                    "displayName": "Correlation Overview [DRILLDOWN]",
+                    "description": "Comprehensive investigation table displaying CYJAX Threat Intelligence IOC matches for in-depth analysis.",
+                    "chartDatasource": {
+                        "dashboardQuery": "6a299e20-45e6-4b5b-b5ab-d9bbe66a5d19",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "columnDefs": [
+                            {
+                                "field": "ioc_val",
+                                "header": "IOC"
+                            },
+                            {
+                                "field": "ioc_type",
+                                "header": "TYPE"
+                            },
+                            {
+                                "field": "classification",
+                                "header": "CLASSIFICATION"
+                            },
+                            {
+                                "field": "category",
+                                "header": "CATEGORY"
+                            },
+                            {
+                                "field": "latitude",
+                                "header": "LATITUDE"
+                            },
+                            {
+                                "field": "longitude",
+                                "header": "LONGITUDE"
+                            },
+                            {
+                                "field": "match_bucket",
+                                "header": "TIME"
+                            },
+                            {
+                                "field": "country",
+                                "header": "COUNTRY"
+                            },
+                            {
+                                "field": "confidence",
+                                "header": "CONFIDENCE"
+                            },
+                            {
+                                "field": "hostname",
+                                "header": "HOSTNAME"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "934c314e35085fb2c227a60e76393933c0cc18b313688cc3bf17750447d491d7",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "EB6B3127-8725-4B12-BEAA-572CC0D0E51B",
+                                "displayName": "IOC",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "leftClickColumn": "ioc_val",
+                                    "query": {
+                                        "query": "(\r\n    ${ioc_type} = \"IOC_TYPE_DOMAIN\"\r\n    and (target.hostname=${ioc_val} OR network.dns.questions.name=${ioc_val})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_IP\"\r\n    and (target.ip = ${ioc_val} OR network.dns.answers.data = ${ioc_val})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_MD5\"\r\n    and (principal.file.md5 = ${ioc_val} OR principal.process.file.md5 = ${ioc_val} OR target.file.md5 = ${ioc_val} OR target.process.file.md5 = ${ioc_val} OR security_result.about.file.md5 = ${ioc_val} OR src.file.md5 = ${ioc_val} OR src.process.file.md5 = ${ioc_val})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_SHA256\"\r\n    and (principal.file.sha256 = ${ioc_val} OR principal.process.file.sha256 = ${ioc_val} OR target.file.sha256 = ${ioc_val} OR target.process.file.sha256 = ${ioc_val} OR security_result.about.file.sha256 = ${ioc_val} OR src.file.sha256 = ${ioc_val} OR src.process.file.sha256 = ${ioc_val})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_SHA1\"\r\n    and (principal.file.sha1 = ${ioc_val} OR principal.process.file.sha1 = ${ioc_val} OR target.file.sha1 = ${ioc_val} OR target.process.file.sha1 = ${ioc_val} OR security_result.about.file.sha1 = ${ioc_val} OR src.file.sha1 = ${ioc_val} OR src.process.file.sha1 = ${ioc_val})\r\n)"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "311d87aa-993f-4d79-ba93-7ee55824c968",
+                    "displayName": "IOCS GEOLOCATION OVERVIEW",
+                    "description": "World map plotting the geographic origin of matched CYJAX Threat Intelligence IOCs.",
+                    "chartDatasource": {
+                        "dashboardQuery": "9be4eb7c-a215-4ab4-8b7a-746992e8f678",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "MAP",
+                                "encode": {},
+                                "dataLabel": {}
+                            }
+                        ],
+                        "googleMapsConfig": {
+                            "dataSettings": {
+                                "latitudeColumn": "max_latitude",
+                                "longitudeColumn": "max_longitude",
+                                "countColumn": "count"
+                            },
+                            "plotMode": "PLOT_MODE_BOTH",
+                            "mapPosition": {
+                                "fitData": true,
+                                "latitudeValue": 37.421995,
+                                "longitudeValue": -122.084092,
+                                "zoomScaleValue": 4
+                            },
+                            "pointSettings": {
+                                "pointSizeType": "POINT_SIZE_TYPE_PROPORTIONAL_TO_SIZE",
+                                "color": "#009886"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "58a200ebe89696ff2d56d85b81b917d2f69025851ff444465a3b8e92f2e9dc78",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "af94b5cf-75ae-4cb2-82e7-8cd38b0e44e5",
+                    "displayName": "markdown",
+                    "visualization": {
+                        "markdown": {
+                            "content": "# IOC Match Event & Trends\n---\nMonitor the volume and patterns of CYJAX Threat Intelligence IOC match events across your environment.\n",
+                            "properties": {
+                                "backgroundColor": "transparent"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_MARKDOWN",
+                    "etag": "9989fa7fded260df8c410e35728128dfdeb6f55cc0c0a20bbedc8781cdaa00dd"
+                },
+                {
+                    "name": "337102ef-9a12-4cb7-9bea-23ccc928fe3c",
+                    "displayName": "Top 10 IOCs",
+                    "description": "Table of the 10 most frequently matched Indicators from CYJAX Threat Intelligence with hostname details.",
+                    "chartDatasource": {
+                        "dashboardQuery": "556644a8-6a10-4c4b-9e14-851a4905797b",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "columnDefs": [
+                            {
+                                "field": "ioc_value",
+                                "header": "IOC"
+                            },
+                            {
+                                "field": "ioc_type",
+                                "header": "TYPE"
+                            },
+                            {
+                                "field": "count",
+                                "header": "COUNT"
+                            },
+                            {
+                                "field": "hostname",
+                                "header": "HOSTNAME"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "46fef15375277584383ee6013b1ef826ec0cd4b5b8fcf7ffeecad06c507abf0d",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "D2028891-52CD-4A0F-BF72-0DFE5842E683",
+                                "displayName": "IOC",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "leftClickColumn": "ioc_value",
+                                    "query": {
+                                        "query": "(\r\n    ${ioc_type} = \"IOC_TYPE_DOMAIN\"\r\n    and (target.hostname=${ioc_value} OR network.dns.questions.name=${ioc_value})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_IP\"\r\n    and (target.ip = ${ioc_value} OR network.dns.answers.data = ${ioc_value})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_MD5\"\r\n    and (principal.file.md5 = ${ioc_value} OR principal.process.file.md5 = ${ioc_value} OR target.file.md5 = ${ioc_value} OR target.process.file.md5 = ${ioc_value} OR security_result.about.file.md5 = ${ioc_value} OR src.file.md5 = ${ioc_value} OR src.process.file.md5 = ${ioc_value})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_SHA256\"\r\n    and (principal.file.sha256 = ${ioc_value} OR principal.process.file.sha256 = ${ioc_value} OR target.file.sha256 = ${ioc_value} OR target.process.file.sha256 = ${ioc_value} OR security_result.about.file.sha256 = ${ioc_value} OR src.file.sha256 = ${ioc_value} OR src.process.file.sha256 = ${ioc_value})\r\n)\r\nOR\r\n(\r\n    ${ioc_type} = \"IOC_TYPE_FILE_HASH_SHA1\"\r\n    and (principal.file.sha1 = ${ioc_value} OR principal.process.file.sha1 = ${ioc_value} OR target.file.sha1 = ${ioc_value} OR target.process.file.sha1 = ${ioc_value} OR security_result.about.file.sha1 = ${ioc_value} OR src.file.sha1 = ${ioc_value} OR src.process.file.sha1 = ${ioc_value})\r\n)"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "523da3e2-6980-4eef-875f-adcabbc31d33",
+                    "displayName": "UNIQUE IOC MATCHES",
+                    "description": "Total count of CYJAX Threat Intelligence IOC matches detected in the environment.",
+                    "chartDatasource": {
+                        "dashboardQuery": "7aaba30b-a019-4ef9-82b2-473f3d09b5ce",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "Indicators",
+                                "field": "unique_count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_PLAIN_TEXT",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "bf51246c59b8ad6615a38959569a9b15b009e2b672c0ad808cebed3d01b1cfd1",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "3f999689-8b93-4a6d-848c-4c5f562da7c9",
+                    "displayName": "TOTAL EVENT MATCHES",
+                    "description": "Count of distinct events whose IOCS matched against CYJAX ThreatCount of distinct events whose IOCS matched against CYJAX Threat Intelligence.Intelligence.",
+                    "chartDatasource": {
+                        "dashboardQuery": "16ca7946-b6c7-4fe1-aab2-9c322490d3e4",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "TOTAL EVENT MATCHES",
+                                "field": "ip_count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_PLAIN_TEXT",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "100000",
+                                        "color": "#1a73e8"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "2b24aee6213e52316c4544bc375edc6a4b330ad3050b919edc6c4753cf382309",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "418c65d0-a11a-4cb1-ac7d-7a4dd6b35c4b",
+                    "displayName": "AMBER Handling Condition",
+                    "description": "Count of IoCs matched against CYJAX Threat Intelligence Based on Handling condition.",
+                    "chartDatasource": {
+                        "dashboardQuery": "251c818e-af4b-4f58-9433-bd111a5830a5",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "iocs",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_PLAIN_TEXT",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "100001",
+                                        "color": "#eb730a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "9787863907f814d5262b2b81e2d95f4499b69b877f5a7d9872e1ff9a75db2c20",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "79190237-28a3-41be-8d6b-36fe0ebb7bd0",
+                    "displayName": "RED Handling Condition",
+                    "description": " Count of IoCs matched against CYJAX Threat Intelligence Based on Handling condition.",
+                    "chartDatasource": {
+                        "dashboardQuery": "46621f7e-6912-4627-97e2-bee25976a871",
+                        "dataSources": [
+                            "IOC_MATCHES"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "100002",
+                                        "color": "#ec453b"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "20f02bd41e9a56c3e4c9e10b9740228d3941b077cebb428818b70d4ec89f05c5",
+                    "drillDownConfig": {}
+                }
+            ],
+            "dashboardQueries": [
+                {
+                    "name": "16ca7946-b6c7-4fe1-aab2-9c322490d3e4",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"CYJAX Threat Intelligence\"\r\n$ip = ioc.ioc_value \r\n$classification = ioc.severity \r\n$match_bucket = timestamp.get_date(ioc.day_bucket_seconds) \r\n$category = ioc.category\r\n$latitude = ioc.location.region_coordinates.latitude\r\n$longitude = ioc.location.region_coordinates.longitude \r\n$country = if(ioc.location.country_or_region != \"\", ioc.location.country_or_region, \"-\") \r\noutcome:\r\n    $ip_count = count_distinct(strings.concat($ip, \"|\", $classification, \"|\", $category, \"|\", cast.as_string(cast.as_int($latitude * 1000000)), \"|\", cast.as_string(cast.as_int($longitude * 1000000)), \"|\", $match_bucket, \"|\", $country))",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "0c99cb55b96c77f62a8aacf291a18224d22c9061c1906aa205356eb4bce4726e"
+                },
+                {
+                    "name": "251c818e-af4b-4f58-9433-bd111a5830a5",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"CYJAX Threat Intelligence\"\r\nioc.severity = \"Amber\"\r\noutcome:\r\n    $iocs = count_distinct(ioc.ioc_value)",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "f966ef996fb6ac1d1a9285c76321eb090b14e452f61e9028ea4b9128bfff462a"
+                },
+                {
+                    "name": "46621f7e-6912-4627-97e2-bee25976a871",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name  = \"CYJAX Threat Intelligence\"\r\nioc.severity = \"Red\"\r\noutcome: \r\n    $count = count_distinct(ioc.ioc_value)",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "ae55b88cf9ab0f318bdbb28daa4efa74624f0005f9bcf10a92f349c43681fe7a"
+                },
+                {
+                    "name": "3502ae4b-ae21-4895-831e-97eb03bedadb",
+                    "query": "ioc.feed_log_type = \"CYJAX_CUSTOM\"\r\nioc.feed_name  = \"Cyjax Threat Intelligence\"\r\n$handling_condition = ioc.severity \r\nmatch: \r\n    $handling_condition\r\noutcome: \r\n    $count = count_distinct(ioc.ioc_value)",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "3364aff4af1a41052a3b1df0185d636e121dc372251edf3a2b45af91f4f2f427"
+                },
+                {
+                    "name": "6a299e20-45e6-4b5b-b5ab-d9bbe66a5d19",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"Cyjax Threat Intelligence\"\r\n$ioc_val = ioc.ioc_value\r\n$ioc_type = ioc.ioc_type\r\n$confidence = ioc.confidence_score\r\n$classification = strings.to_upper(ioc.severity)\r\n$match_bucket = timestamp.get_date(ioc.day_bucket_seconds)\r\n$category = ioc.category\r\n$latitude = ioc.location.region_coordinates.latitude\r\n$longitude = ioc.location.region_coordinates.latitude\r\n$country = if(ioc.location.country_or_region!=\"\", ioc.location.country_or_region, \"-\") \r\nmatch: \r\n    $ioc_val, $ioc_type, $classification, $category, $latitude, $longitude, $match_bucket, $country, $confidence\r\noutcome:\r\n    $hostname = re.replace(re.replace(re.replace(arrays.join_string(array_distinct(ioc.asset.hostname), \",\"), \",,+\", \",\"), \"^,|,$\", \"\"), \"^\\\\s*$|^$\", \"-\")\r\norder:\r\n    $match_bucket desc\r\nlimit:\r\n    10000\r\n",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "feac19d369fb0f24d48e6030af7419a41f3ae6e572d6a401db8f536c6ebbd4fd"
+                },
+                {
+                    "name": "9be4eb7c-a215-4ab4-8b7a-746992e8f678",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"CYJAX Threat Intelligence\"\r\n$ioc = ioc.ioc_value \r\n$classification = ioc.severity \r\n$match_bucket = timestamp.get_date(ioc.day_bucket_seconds) \r\n$category = ioc.category\r\n$latitude = ioc.location.region_coordinates.latitude\r\n$longitude = ioc.location.region_coordinates.longitude\r\nioc.location.country_or_region != \"\"\r\n$country = if(ioc.location.country_or_region != \"\", ioc.location.country_or_region, \"-\") \r\nmatch:\r\n    $country\r\noutcome:\r\n    $count = count_distinct(strings.concat($ioc, \"|\", $classification, \"|\", $category, \"|\", cast.as_string(cast.as_int($latitude * 1000000)), \"|\", cast.as_string(cast.as_int($longitude * 1000000)), \"|\", $match_bucket, \"|\", $country))\r\n    $max_latitude = max(ioc.location.region_coordinates.latitude)\r\n    $max_longitude = max(ioc.location.region_coordinates.longitude)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10000",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "cc5a7c47257335ca3710bc1314890fb6f426dff0264b083dd78f806ef70286b7"
+                },
+                {
+                    "name": "556644a8-6a10-4c4b-9e14-851a4905797b",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"CYJAX Threat Intelligence\"\r\n$ip = ioc.ioc_value \r\n$classification = ioc.severity \r\n$match_bucket = timestamp.get_date(ioc.day_bucket_seconds) \r\n$category = ioc.category\r\n$latitude = ioc.location.region_coordinates.latitude\r\n$longitude = ioc.location.region_coordinates.longitude \r\n$country = if(ioc.location.country_or_region != \"\", ioc.location.country_or_region, \"-\")\r\n$ioc_value = ioc.ioc_value\r\n$ioc_type = ioc.ioc_type\r\nmatch: \r\n    $ioc_value, $ioc_type\r\noutcome: \r\n    $count = count_distinct(strings.concat($ip, \"|\", $classification, \"|\", $category, \"|\", cast.as_string(cast.as_int($latitude * 1000000)), \"|\", cast.as_string(cast.as_int($longitude * 1000000)), \"|\", $match_bucket, \"|\", $country))\r\n    $hostname = re.replace(re.replace(re.replace(arrays.join_string(array_distinct(ioc.asset.hostname), \",\"), \",,+\", \",\"), \"^,|,$\", \"\"), \"^\\\\s*$|^$\", \"-\")\r\norder: \r\n    $count desc \r\nlimit: \r\n    10",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "c5a2ecb69926aead5ad108f1fdc454ef507c0293db061b6699a0ad572b4dde95"
+                },
+                {
+                    "name": "7aaba30b-a019-4ef9-82b2-473f3d09b5ce",
+                    "query": "ioc.feed_log_type = \"CYJAX_THREAT_INTELLIGENCE\"\r\nioc.feed_name = \"CYJAX Threat Intelligence\"\r\noutcome:\r\n    $unique_count = count_distinct(ioc.ioc_value)\r\n    $iocs = array_distinct(ioc.ioc_value)",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "df0743bfbe40ed888915346f32253436844316965cb520debe101bccdb485901"
+                }
+            ]
+        }
+    ]
+}
