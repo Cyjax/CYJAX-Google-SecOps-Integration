@@ -2,7 +2,7 @@
     "dashboards": [
         {
             "dashboard": {
-                "name": "dbf0efed-dec6-4052-8c84-d806fbf1c1b2",
+                "name": "6970a45c-0cc9-4663-b892-da663b51735d",
                 "displayName": "CYJAX Threat Intelligence Indicators Dashboard",
                 "definition": {
                     "filters": [
@@ -20,20 +20,20 @@
                             ],
                             "displayName": "Global Time Filter",
                             "chartIds": [
-                                "4c61eab2-3d97-4986-bde3-63d8cfa223ed",
-                                "59df4062-6b85-4ddf-9e33-d57a77f576d3",
-                                "2e032ae8-c9b3-4df9-b4ea-d796e1f3e3c7",
-                                "4a34e178-d992-44ce-b9b8-02a1252f3ba8",
-                                "e602d310-1c9c-4bed-8941-8e445dac871a",
-                                "b5fd9d15-7295-4449-b039-ddc2ef0208bc",
-                                "5fe96d27-0698-408f-bdd8-90e9d5a2ffcd",
-                                "6710d1ca-3f6d-4f65-8657-7cf2538ddbf5",
-                                "9fe44f60-2554-41ea-a3af-72e09553b240",
-                                "d66dca80-78bc-4f41-8530-e6be3fbf4d07",
-                                "d928116c-2eac-4597-aff0-b9056e6c5666",
-                                "1626d7de-374e-4b21-b893-6938c7e0c14f",
-                                "56291627-6cee-4c53-b90a-e4ea8200669b",
-                                "537bb650-1d29-4eaf-88de-17f6827713b4"
+                                "69c5b98f-b81e-40fa-826f-b621065f0937",
+                                "701c7dcc-8670-48e2-9d0b-b65fc8d5177d",
+                                "2f49532d-2d61-4f46-803a-fcf51215bdbe",
+                                "63f2abc2-cd10-4b3c-9e7f-bb7fa0ed67d7",
+                                "0ce0b7e8-0442-4894-80f3-eebd07ea5b6f",
+                                "4820a72d-2d4c-41c0-b881-c93b3323b84a",
+                                "4254e342-2e5b-476c-b13a-18e19ef68089",
+                                "353caaad-5a1b-4a2c-8a1b-275c6390b473",
+                                "cd685546-2cec-4574-b5ba-3306d41bf9cd",
+                                "5cde7f46-f930-45cf-a714-40eded1cc5dc",
+                                "9ea058df-e2c8-400c-a968-58d485ed5abb",
+                                "a1fae697-4e30-4a75-be92-cb7cc89c6d70",
+                                "f1ef4a23-fad1-46e5-bf46-a0f49dee63c6",
+                                "b5667836-c509-4f3d-a9c6-f85728baf7fd"
                             ],
                             "isStandardTimeRangeFilter": true,
                             "isStandardTimeRangeFilterEnabled": true
@@ -52,19 +52,19 @@
                             ],
                             "displayName": "Indicator Type",
                             "chartIds": [
-                                "4c61eab2-3d97-4986-bde3-63d8cfa223ed",
-                                "59df4062-6b85-4ddf-9e33-d57a77f576d3",
-                                "2e032ae8-c9b3-4df9-b4ea-d796e1f3e3c7",
-                                "4a34e178-d992-44ce-b9b8-02a1252f3ba8",
-                                "e602d310-1c9c-4bed-8941-8e445dac871a",
-                                "b5fd9d15-7295-4449-b039-ddc2ef0208bc",
-                                "5fe96d27-0698-408f-bdd8-90e9d5a2ffcd",
-                                "d66dca80-78bc-4f41-8530-e6be3fbf4d07",
-                                "9fe44f60-2554-41ea-a3af-72e09553b240",
-                                "1626d7de-374e-4b21-b893-6938c7e0c14f",
-                                "56291627-6cee-4c53-b90a-e4ea8200669b",
-                                "537bb650-1d29-4eaf-88de-17f6827713b4",
-                                "d928116c-2eac-4597-aff0-b9056e6c5666"
+                                "69c5b98f-b81e-40fa-826f-b621065f0937",
+                                "701c7dcc-8670-48e2-9d0b-b65fc8d5177d",
+                                "2f49532d-2d61-4f46-803a-fcf51215bdbe",
+                                "63f2abc2-cd10-4b3c-9e7f-bb7fa0ed67d7",
+                                "0ce0b7e8-0442-4894-80f3-eebd07ea5b6f",
+                                "4820a72d-2d4c-41c0-b881-c93b3323b84a",
+                                "4254e342-2e5b-476c-b13a-18e19ef68089",
+                                "5cde7f46-f930-45cf-a714-40eded1cc5dc",
+                                "cd685546-2cec-4574-b5ba-3306d41bf9cd",
+                                "a1fae697-4e30-4a75-be92-cb7cc89c6d70",
+                                "f1ef4a23-fad1-46e5-bf46-a0f49dee63c6",
+                                "b5667836-c509-4f3d-a9c6-f85728baf7fd",
+                                "9ea058df-e2c8-400c-a968-58d485ed5abb"
                             ]
                         },
                         {
@@ -81,21 +81,21 @@
                             ],
                             "displayName": "Handling Condition",
                             "chartIds": [
-                                "4c61eab2-3d97-4986-bde3-63d8cfa223ed",
-                                "59df4062-6b85-4ddf-9e33-d57a77f576d3",
-                                "2e032ae8-c9b3-4df9-b4ea-d796e1f3e3c7",
-                                "4a34e178-d992-44ce-b9b8-02a1252f3ba8",
-                                "e602d310-1c9c-4bed-8941-8e445dac871a",
-                                "6710d1ca-3f6d-4f65-8657-7cf2538ddbf5",
-                                "9fe44f60-2554-41ea-a3af-72e09553b240",
-                                "1626d7de-374e-4b21-b893-6938c7e0c14f",
-                                "537bb650-1d29-4eaf-88de-17f6827713b4"
+                                "69c5b98f-b81e-40fa-826f-b621065f0937",
+                                "701c7dcc-8670-48e2-9d0b-b65fc8d5177d",
+                                "2f49532d-2d61-4f46-803a-fcf51215bdbe",
+                                "63f2abc2-cd10-4b3c-9e7f-bb7fa0ed67d7",
+                                "0ce0b7e8-0442-4894-80f3-eebd07ea5b6f",
+                                "353caaad-5a1b-4a2c-8a1b-275c6390b473",
+                                "cd685546-2cec-4574-b5ba-3306d41bf9cd",
+                                "a1fae697-4e30-4a75-be92-cb7cc89c6d70",
+                                "b5667836-c509-4f3d-a9c6-f85728baf7fd"
                             ]
                         }
                     ],
                     "charts": [
                         {
-                            "dashboardChart": "2e032ae8-c9b3-4df9-b4ea-d796e1f3e3c7",
+                            "dashboardChart": "2f49532d-2d61-4f46-803a-fcf51215bdbe",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 42,
@@ -109,7 +109,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "d66dca80-78bc-4f41-8530-e6be3fbf4d07",
+                            "dashboardChart": "5cde7f46-f930-45cf-a714-40eded1cc5dc",
                             "chartLayout": {
                                 "startX": 42,
                                 "spanX": 27,
@@ -122,7 +122,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "d928116c-2eac-4597-aff0-b9056e6c5666",
+                            "dashboardChart": "9ea058df-e2c8-400c-a968-58d485ed5abb",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -135,7 +135,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "1626d7de-374e-4b21-b893-6938c7e0c14f",
+                            "dashboardChart": "a1fae697-4e30-4a75-be92-cb7cc89c6d70",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -149,7 +149,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "9fe44f60-2554-41ea-a3af-72e09553b240",
+                            "dashboardChart": "cd685546-2cec-4574-b5ba-3306d41bf9cd",
                             "chartLayout": {
                                 "startX": 48,
                                 "spanX": 48,
@@ -163,7 +163,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "4a34e178-d992-44ce-b9b8-02a1252f3ba8",
+                            "dashboardChart": "63f2abc2-cd10-4b3c-9e7f-bb7fa0ed67d7",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -177,7 +177,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "e602d310-1c9c-4bed-8941-8e445dac871a",
+                            "dashboardChart": "0ce0b7e8-0442-4894-80f3-eebd07ea5b6f",
                             "chartLayout": {
                                 "startX": 48,
                                 "spanX": 48,
@@ -191,7 +191,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "6710d1ca-3f6d-4f65-8657-7cf2538ddbf5",
+                            "dashboardChart": "353caaad-5a1b-4a2c-8a1b-275c6390b473",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 48,
@@ -204,7 +204,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "537bb650-1d29-4eaf-88de-17f6827713b4",
+                            "dashboardChart": "b5667836-c509-4f3d-a9c6-f85728baf7fd",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 48,
@@ -218,7 +218,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "59df4062-6b85-4ddf-9e33-d57a77f576d3",
+                            "dashboardChart": "701c7dcc-8670-48e2-9d0b-b65fc8d5177d",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -232,7 +232,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "4c61eab2-3d97-4986-bde3-63d8cfa223ed",
+                            "dashboardChart": "69c5b98f-b81e-40fa-826f-b621065f0937",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -246,7 +246,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "56291627-6cee-4c53-b90a-e4ea8200669b",
+                            "dashboardChart": "f1ef4a23-fad1-46e5-bf46-a0f49dee63c6",
                             "chartLayout": {
                                 "startX": 69,
                                 "spanX": 27,
@@ -259,7 +259,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "b5fd9d15-7295-4449-b039-ddc2ef0208bc",
+                            "dashboardChart": "4820a72d-2d4c-41c0-b881-c93b3323b84a",
                             "chartLayout": {
                                 "startX": 42,
                                 "spanX": 27,
@@ -272,7 +272,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "5fe96d27-0698-408f-bdd8-90e9d5a2ffcd",
+                            "dashboardChart": "4254e342-2e5b-476c-b13a-18e19ef68089",
                             "chartLayout": {
                                 "startX": 69,
                                 "spanX": 27,
@@ -285,7 +285,7 @@
                             ]
                         },
                         {
-                            "dashboardChart": "1b7b7b21-a6d3-4a36-a526-381fd2cc9a44",
+                            "dashboardChart": "dc7d00f6-fba3-4645-a4f7-47705c18cd7c",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -294,7 +294,7 @@
                             }
                         },
                         {
-                            "dashboardChart": "3e5eb26f-f42b-4ef1-88a2-16660daec153",
+                            "dashboardChart": "e137826e-4105-4c49-9190-e800a2d8073a",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -303,7 +303,7 @@
                             }
                         },
                         {
-                            "dashboardChart": "25d7053b-aa61-42bb-b1e2-47d80f334e26",
+                            "dashboardChart": "80569c5a-ad4c-4746-882f-9aac04d01fd3",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -312,7 +312,7 @@
                             }
                         },
                         {
-                            "dashboardChart": "e8894459-6c43-4845-84bb-44f38b6ef378",
+                            "dashboardChart": "18ea9eed-3e63-4700-a5c3-9b7cc688b447",
                             "chartLayout": {
                                 "startX": 0,
                                 "spanX": 96,
@@ -323,33 +323,21 @@
                     ]
                 },
                 "type": "CUSTOM",
-                "etag": "7fd18ff206308b929aef79988770171bceadd6f833bdbbd6b12c3346b12d1993",
+                "etag": "146649a43ba843cabcc921d3a627e44afa304a00affd06bbdfb667e50f0e25bd",
                 "access": "DASHBOARD_PRIVATE"
             },
             "dashboardCharts": [
                 {
-                    "name": "5fe96d27-0698-408f-bdd8-90e9d5a2ffcd",
-                    "displayName": "White Handling Condition Indicators",
-                    "description": "Count of White handling condition indicators in CYJAX Threat Intelligence.",
+                    "name": "b5667836-c509-4f3d-a9c6-f85728baf7fd",
+                    "displayName": "Top 10  TTP",
+                    "description": "Shows the top 10 most frequent TTP with count of indicators.",
                     "chartDatasource": {
-                        "dashboardQuery": "860d1dd5-9939-4131-a089-91003c049a49",
+                        "dashboardQuery": "dec1e9fd-4e21-41c3-9479-929037468e89",
                         "dataSources": [
                             "ENTITY"
                         ]
                     },
                     "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "TEXT",
-                                "label": "Indicators",
-                                "field": "count",
-                                "metricTrendConfig": {
-                                    "metricFormat": "METRIC_FORMAT_NUMBER",
-                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
-                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
-                                }
-                            }
-                        ],
                         "xAxes": [
                             {
                                 "axisType": "VALUE"
@@ -363,316 +351,30 @@
                         "legends": [
                             {
                                 "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "columnDefs": [
+                            {
+                                "field": "ttp",
+                                "header": "TTP"
+                            },
+                            {
+                                "field": "count",
+                                "header": "COUNT"
                             }
                         ],
                         "groupingType": "Off"
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "3e974278959d0e573b33c68aef608576a6887b014f2ddfffb4ee30443268fc60",
-                    "drillDownConfig": {
-                        "leftDrillDowns": [
-                            {
-                                "id": "C2BED4D0-C942-448F-A41A-ACEDCFC2B197",
-                                "displayName": "IOCs",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"WHITE\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "6710d1ca-3f6d-4f65-8657-7cf2538ddbf5",
-                    "displayName": "Indicator Type Distribution ",
-                    "description": " Show the count of indicators by each type (Domain, IP, FILE, URL or USER)",
-                    "chartDatasource": {
-                        "dashboardQuery": "7ff513a6-ccb2-40fc-8771-87fcdcdd15ef",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "PIE",
-                                "encode": {
-                                    "value": "count",
-                                    "itemName": "ioc_type"
-                                },
-                                "dataLabel": {
-                                    "show": true
-                                },
-                                "radius": [
-                                    "40%",
-                                    "70%"
-                                ],
-                                "itemStyle": {
-                                    "color": "b=>{const {map:c}=OOf(this.theme);b=JQf(b,nPf(this.form.controls.seriesConfig.getRawValue()),a);a=b.nextColorIndex;let d;return(d=\nc.get(b.color))!=null?d:b.color}"
-                                },
-                                "itemColors": {
-                                    "colors": [
-                                        {
-                                            "key": "FILE",
-                                            "value": {
-                                                "color": "#1a73e8",
-                                                "label": "FILE"
-                                            }
-                                        },
-                                        {
-                                            "key": "DOMAIN_NAME",
-                                            "value": {
-                                                "color": "#eb730a",
-                                                "label": "DOMAIN_NAME"
-                                            }
-                                        },
-                                        {
-                                            "key": "IP_ADDRESS",
-                                            "value": {
-                                                "color": "#ec453b",
-                                                "label": "IP_ADDRESS"
-                                            }
-                                        },
-                                        {
-                                            "key": "URL",
-                                            "value": {
-                                                "color": "#10a3b7",
-                                                "label": "URL"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "top": 12,
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off"
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "59041baff4d981ac0cf98b24e1e007aae59c4327217551dede9a867a843d06df",
+                    "etag": "39b03fc713147787a86cfb8a83cf99065aea98a5e27dcddad53c7231b373e0c3",
                     "drillDownConfig": {}
                 },
                 {
-                    "name": "1b7b7b21-a6d3-4a36-a526-381fd2cc9a44",
-                    "displayName": "markdown",
-                    "visualization": {
-                        "markdown": {
-                            "content": "# ![CYJAX ThreatIntelligence Logo](https://github.com/Cyjax/CYJAX-Google-SecOps-Integration/blob/main/siem/Logo/cyjax_logo.png?raw=true) CYJAX Threat Intelligence Indicator Dashboard\n---\n### The Indicator Dashboard provides detailed information about Indicators fetched from Cyjax.\n1. The Indicator Dashboard provides comprehensive visibility into threat indicators ingested from Cyjax Threat Intelligence, enabling security analysts to monitor, analyze, and investigate indicators of compromise (IOCs) across multiple dimensions.\n2. Features interactive filters for Indicator Type and Handling Condition, allowing users to drill down into specific threat categories and severity levels for targeted analysis.",
-                            "properties": {
-                                "backgroundColor": "transparent"
-                            }
-                        }
-                    },
-                    "tileType": "TILE_TYPE_MARKDOWN",
-                    "etag": "c662b5d3d2a60caa53c1f3bb9baf7d8c576410ab8f152003b90e26a61df1229c"
-                },
-                {
-                    "name": "b5fd9d15-7295-4449-b039-ddc2ef0208bc",
-                    "displayName": "Red Handling Condition Indicators",
-                    "description": "Count of Red handling condition indicators in CYJAX Threat Intelligence.",
-                    "chartDatasource": {
-                        "dashboardQuery": "a5b325c4-c5f4-4685-9057-aaaef0e3aefe",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "TEXT",
-                                "label": "IOCs",
-                                "field": "count",
-                                "metricTrendConfig": {
-                                    "metricFormat": "METRIC_FORMAT_NUMBER",
-                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
-                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
-                                }
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off",
-                        "thresholdColoringEnabled": true,
-                        "visualMaps": [
-                            {
-                                "visualMapType": "PIECEWISE",
-                                "pieces": [
-                                    {
-                                        "min": "0",
-                                        "max": "1000000",
-                                        "color": "#ec453b"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "c0a9e4e7555803066b92b52d06c8709b072de6315b2f65b70816770883fdc00a",
-                    "drillDownConfig": {
-                        "leftDrillDowns": [
-                            {
-                                "id": "231498D5-9D44-46B0-A32D-13162E6007B2",
-                                "displayName": "IOCs",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"RED\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "e8894459-6c43-4845-84bb-44f38b6ef378",
-                    "displayName": "markdown",
-                    "visualization": {
-                        "markdown": {
-                            "content": "## Classification Distribution\n---\nOverview of IOC classifications. Use these charts to understand the IOC type distribution across industries and handling conditions.",
-                            "properties": {
-                                "backgroundColor": "transparent"
-                            }
-                        }
-                    },
-                    "tileType": "TILE_TYPE_MARKDOWN",
-                    "etag": "0890fbce136d4280a061b5ed67eb2c0a6784fd43a82c05366e1f849356a6d414"
-                },
-                {
-                    "name": "25d7053b-aa61-42bb-b1e2-47d80f334e26",
-                    "displayName": "markdown",
-                    "visualization": {
-                        "markdown": {
-                            "content": "## Top 10 Analytics\n---\nKey insights into the most prevalent entities in CYJAX Threat Intelligence data. Analyze top organizations, ASNs, and geographic locations.",
-                            "properties": {
-                                "backgroundColor": "transparent"
-                            }
-                        }
-                    },
-                    "tileType": "TILE_TYPE_MARKDOWN",
-                    "etag": "34f37fdb6e2ddb60a8396869071fe68de9f092ff0d7de182fe16dfcb47c953bf"
-                },
-                {
-                    "name": "d928116c-2eac-4597-aff0-b9056e6c5666",
-                    "displayName": "Handling Condition Breakdown",
-                    "description": "Display chart for indicator counts by Handling condition (RED, AMBER, GREEN, WHITE)",
-                    "chartDatasource": {
-                        "dashboardQuery": "1915a69e-2023-46ad-82d2-4dac765a325b",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesName": "none",
-                                "seriesType": "BAR",
-                                "encode": {
-                                    "x": "handling_condition",
-                                    "y": "count"
-                                },
-                                "dataLabel": {},
-                                "itemStyle": {
-                                    "color": "#1a73e8"
-                                },
-                                "seriesUniqueValue": "none"
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "CATEGORY",
-                                "displayName": "HANDLING CONDITION"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE",
-                                "displayName": "COUNT"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off",
-                        "thresholdColoringEnabled": true,
-                        "visualMaps": [
-                            {
-                                "visualMapType": "PIECEWISE",
-                                "pieces": [
-                                    {
-                                        "min": "0",
-                                        "max": "1000",
-                                        "color": "#1a73e8"
-                                    },
-                                    {
-                                        "min": "1001",
-                                        "max": "5000",
-                                        "color": "#eb730a"
-                                    },
-                                    {
-                                        "min": "5001",
-                                        "max": "10000",
-                                        "color": "#10a3b7"
-                                    },
-                                    {
-                                        "min": "10000",
-                                        "max": "50000",
-                                        "color": "#923ef9"
-                                    },
-                                    {
-                                        "min": "50000",
-                                        "max": "100000",
-                                        "color": "#e51f8f"
-                                    },
-                                    {
-                                        "min": "100000",
-                                        "max": "1000000",
-                                        "color": "#ec453b"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "7d0fecd854e4d027330d5f353de39e421f69c82af89ef46a260a41cd380a166c",
-                    "drillDownConfig": {}
-                },
-                {
-                    "name": "4a34e178-d992-44ce-b9b8-02a1252f3ba8",
+                    "name": "63f2abc2-cd10-4b3c-9e7f-bb7fa0ed67d7",
                     "displayName": "Top 10 Asns",
                     "description": "Shows the top 10 most frequent Asns with count of indicators.",
                     "chartDatasource": {
-                        "dashboardQuery": "8dd4e763-5b54-40eb-9fe4-26e5f5adb17d",
+                        "dashboardQuery": "bafba1bd-33aa-4dc6-8984-2f5fcdfbee03",
                         "dataSources": [
                             "ENTITY"
                         ]
@@ -756,29 +458,29 @@
                         ]
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "9a5e168b47bd234e246b2f92a9fe4f556f7a6cfbf50220045506da3049ab4366",
+                    "etag": "7a5cb4af8158a49e61cc3d4f37b67bc3d92c3b3ceed3c624b5634ec73e21318b",
                     "drillDownConfig": {}
                 },
                 {
-                    "name": "3e5eb26f-f42b-4ef1-88a2-16660daec153",
+                    "name": "dc7d00f6-fba3-4645-a4f7-47705c18cd7c",
                     "displayName": "markdown",
                     "visualization": {
                         "markdown": {
-                            "content": "## Detailed Tables\n---\nComprehensive tables for in-depth analysis. Drill down into individual IOCs.",
+                            "content": "# ![CYJAX ThreatIntelligence Logo](https://github.com/Cyjax/CYJAX-Google-SecOps-Integration/blob/main/siem/Logo/cyjax_logo.png?raw=true) CYJAX Threat Intelligence Indicator Dashboard\n---\n### The Indicator Dashboard provides detailed information about Indicators fetched from CYJAX.\n1. The Indicator Dashboard provides comprehensive visibility into threat indicators ingested from CYJAX Threat Intelligence, enabling security analysts to monitor, analyze, and investigate indicators of compromise (IOCs) across multiple dimensions.\n2. Features interactive filters for Indicator Type and Handling Condition, allowing users to drill down into specific threat categories and severity levels for targeted analysis.",
                             "properties": {
                                 "backgroundColor": "transparent"
                             }
                         }
                     },
                     "tileType": "TILE_TYPE_MARKDOWN",
-                    "etag": "89b4185f26bc61fae24ee6509820a7d1a1e4d3e423c15cd2c8c4932ec88e984d"
+                    "etag": "e4798b88afd4dc6ffff1f9291caa152dc3e4ee365f5011bf191b328e598911c1"
                 },
                 {
-                    "name": "1626d7de-374e-4b21-b893-6938c7e0c14f",
-                    "displayName": "Indicator Timeline",
-                    "description": "The chart displays indicator trends over time by indicator type.",
+                    "name": "4820a72d-2d4c-41c0-b881-c93b3323b84a",
+                    "displayName": "Red Handling Condition Indicators",
+                    "description": "Count of Red handling condition indicators in CYJAX Threat Intelligence.",
                     "chartDatasource": {
-                        "dashboardQuery": "91606017-978a-4b4f-8f1b-541a5b97cfec",
+                        "dashboardQuery": "f72d11ac-b442-4e4c-bce0-7930cc64fd21",
                         "dataSources": [
                             "ENTITY"
                         ]
@@ -786,52 +488,69 @@
                     "visualization": {
                         "series": [
                             {
-                                "seriesName": "UNDETECTED",
-                                "seriesType": "BAR",
-                                "encode": {
-                                    "x": "date",
-                                    "y": "count"
-                                },
-                                "dataLabel": {},
-                                "itemStyle": {
-                                    "color": "#1a73e8"
-                                },
-                                "seriesUniqueValue": "UNDETECTED"
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
                             }
                         ],
                         "xAxes": [
                             {
-                                "axisType": "CATEGORY",
-                                "displayName": "DATE"
+                                "axisType": "VALUE"
                             }
                         ],
                         "yAxes": [
                             {
-                                "axisType": "LOG",
-                                "displayName": "COUNT"
+                                "axisType": "VALUE"
                             }
                         ],
                         "legends": [
                             {
-                                "bottom": 12,
                                 "legendOrient": "HORIZONTAL"
                             }
                         ],
-                        "seriesColumn": [
-                            "verdict"
-                        ],
-                        "groupingType": "Grouped"
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "1000000",
+                                        "color": "#ec453b"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "b9a5ba791c7f81e24f12c06b9b00540048a63c95fbf1d9600b75b4b0954e00a2",
-                    "drillDownConfig": {}
+                    "etag": "2365f4c5bbfc67ccb689fbe86b53cb9ce47c5f54f656378eb39bfae0ce5329c3",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "231498D5-9D44-46B0-A32D-13162E6007B2",
+                                "displayName": "IOCs",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "query": {
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"RED\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid"
+                                    }
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
-                    "name": "59df4062-6b85-4ddf-9e33-d57a77f576d3",
+                    "name": "701c7dcc-8670-48e2-9d0b-b65fc8d5177d",
                     "displayName": "Indicators overview",
-                    "description": "Comprehensive investigation table displaying Cyjax indicators for in depth analysis.",
+                    "description": "Comprehensive investigation table displaying CYJAX indicators for in depth analysis.",
                     "chartDatasource": {
-                        "dashboardQuery": "899298ec-9bcd-41cc-bb75-d69026e73c81",
+                        "dashboardQuery": "0de6e318-fe42-42f9-bfe9-a442b6df1310",
                         "dataSources": [
                             "ENTITY"
                         ]
@@ -905,7 +624,7 @@
                         "groupingType": "Off"
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "f5b0cbb246f1ec9dcf61415568e5ef756e6d718c9fe26a6e1b56f4f2473a36be",
+                    "etag": "1d9f7476ffed394ab0ecd966f31da6471126e9dd18c58e16d4f90f6f50da9fe9",
                     "drillDownConfig": {
                         "leftDrillDowns": [
                             {
@@ -915,7 +634,7 @@
                                     "newTab": true,
                                     "leftClickColumn": "ioc",
                                     "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.entity.file.md5 = ${ioc} or\r\ngraph.entity.file.sha1 = ${ioc} or\r\ngraph.entity.file.sha256 = ${ioc} or\r\ngraph.entity.file.ssdeep = ${ioc} or\r\ngraph.entity.ip = ${ioc} or\r\ngraph.entity.url = ${ioc} or\r\ngraph.entity.email = ${ioc} or\r\ngraph.entity.user.email_addresses= ${ioc}"
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.entity.file.md5 = ${ioc} or\r\ngraph.entity.file.sha1 = ${ioc} or\r\ngraph.entity.file.sha256 = ${ioc} or\r\ngraph.entity.file.ssdeep = ${ioc} or\r\ngraph.entity.ip = ${ioc} or\r\ngraph.entity.url = ${ioc} or\r\ngraph.entity.email = ${ioc} or\r\ngraph.entity.user.email_addresses= ${ioc}"
                                     }
                                 }
                             },
@@ -934,11 +653,78 @@
                     }
                 },
                 {
-                    "name": "e602d310-1c9c-4bed-8941-8e445dac871a",
+                    "name": "a1fae697-4e30-4a75-be92-cb7cc89c6d70",
+                    "displayName": "Indicator Timeline",
+                    "description": "The chart displays indicator trends over time by indicator type.",
+                    "chartDatasource": {
+                        "dashboardQuery": "74433396-ed5f-45f1-9f5a-025e082c42ec",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesName": "UNDETECTED",
+                                "seriesType": "BAR",
+                                "encode": {
+                                    "x": "date",
+                                    "y": "count"
+                                },
+                                "dataLabel": {},
+                                "itemStyle": {
+                                    "color": "#1a73e8"
+                                },
+                                "seriesUniqueValue": "UNDETECTED"
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "CATEGORY",
+                                "displayName": "DATE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "LOG",
+                                "displayName": "COUNT"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "bottom": 12,
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "seriesColumn": [
+                            "verdict"
+                        ],
+                        "groupingType": "Grouped"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "0f5f212da22c4ed7ee739c947b6c80f19cbd62c7e38eacc3d821088471b7004b",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "18ea9eed-3e63-4700-a5c3-9b7cc688b447",
+                    "displayName": "markdown",
+                    "visualization": {
+                        "markdown": {
+                            "content": "## Classification Distribution\n---\nOverview of IOC classifications. Use these charts to understand the IOC type distribution across industries and handling conditions.",
+                            "properties": {
+                                "backgroundColor": "transparent"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_MARKDOWN",
+                    "etag": "2bfaba7435d0028957d83da4b508561942cd6f0ddbcdcf5bc746b8bd95b3d039"
+                },
+                {
+                    "name": "0ce0b7e8-0442-4894-80f3-eebd07ea5b6f",
                     "displayName": "Industry Breakdown",
                     "description": "Displays indicator industry type with count of indicators.",
                     "chartDatasource": {
-                        "dashboardQuery": "008f4ddb-010b-4fab-8847-0ec38d635630",
+                        "dashboardQuery": "fa27474e-bbd9-4386-b0f4-657deb1514e6",
                         "dataSources": [
                             "ENTITY"
                         ]
@@ -972,361 +758,15 @@
                         "groupingType": "Off"
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "1aa136db7f202e79fda6ee4a8c6197ff2f775c83845721ff6038d1d1838bb0df",
+                    "etag": "4f84149d8e45cf926ece0841279170bd48a71e5d989613e31343cd97d52ca643",
                     "drillDownConfig": {}
                 },
                 {
-                    "name": "4c61eab2-3d97-4986-bde3-63d8cfa223ed",
-                    "displayName": "Enriched indicators Overview",
-                    "description": "Comprehensive investigation table displaying Cyjax  indicator enrichment for in-depth analysis.",
-                    "chartDatasource": {
-                        "dashboardQuery": "69c7250a-9bec-4682-9442-d913d55c273d",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "columnDefs": [
-                            {
-                                "field": "ioc",
-                                "header": "IOC [DRILL DOWN]"
-                            },
-                            {
-                                "field": "type",
-                                "header": "Type"
-                            },
-                            {
-                                "field": "description",
-                                "header": "Description"
-                            },
-                            {
-                                "field": "handling_condition",
-                                "header": "Handling Condition"
-                            },
-                            {
-                                "field": "source",
-                                "header": "Source [REDIRECTION LINK]"
-                            },
-                            {
-                                "field": "asn_org",
-                                "header": "ASN Organization"
-                            },
-                            {
-                                "field": "asn_num",
-                                "header": "ASN Number"
-                            },
-                            {
-                                "field": "geo_country_code",
-                                "header": "Geo Country Code"
-                            },
-                            {
-                                "field": "geo_country_name",
-                                "header": "Geo Country Name"
-                            },
-                            {
-                                "field": "uuid",
-                                "header": "UUID"
-                            },
-                            {
-                                "field": "last_seen",
-                                "header": "Last Seen"
-                            },
-                            {
-                                "field": "count",
-                                "header": "Count"
-                            }
-                        ],
-                        "groupingType": "Off"
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "a3069dc7369ffc67f162823def8cfee4acf43941504be5c3a5abeb407eca9d4f",
-                    "drillDownConfig": {
-                        "leftDrillDowns": [
-                            {
-                                "id": "1FBFFBE3-D341-4C22-9882-3DB1CE06AA8D",
-                                "displayName": "IOC",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "leftClickColumn": "ioc",
-                                    "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.entity.file.md5 = ${ioc} or\r\ngraph.entity.file.sha1 = ${ioc} or\r\ngraph.entity.file.sha256 = ${ioc} or\r\ngraph.entity.file.ssdeep = ${ioc} or\r\ngraph.entity.ip = ${ioc} or\r\ngraph.entity.url = ${ioc} or\r\ngraph.entity.email = ${ioc} or\r\ngraph.entity.user.email_addresses= ${ioc}"
-                                    }
-                                }
-                            },
-                            {
-                                "id": "11318471-79C8-46F2-A740-DC7800613E56",
-                                "displayName": "Source Link",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "leftClickColumn": "source",
-                                    "externalLink": {
-                                        "link": "${source}"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "2e032ae8-c9b3-4df9-b4ea-d796e1f3e3c7",
-                    "displayName": "Total Indicators",
-                    "description": "Display total Indicators ingested from CYJAX Threat Intelligence.",
-                    "chartDatasource": {
-                        "dashboardQuery": "3e8ac521-d8d1-4f59-9261-b786f117ec33",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "TEXT",
-                                "label": "IOCs",
-                                "field": "total_indicators",
-                                "metricTrendConfig": {
-                                    "metricFormat": "METRIC_FORMAT_NUMBER",
-                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_PERCENTAGE",
-                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
-                                }
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off",
-                        "thresholdColoringEnabled": true,
-                        "visualMaps": [
-                            {
-                                "visualMapType": "PIECEWISE",
-                                "pieces": [
-                                    {
-                                        "min": "0",
-                                        "max": "1000000",
-                                        "color": "#1a73e8"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "2e1bd50c5b8a989a89369c20d594cca986884e519e6c253a8716be2740f86668",
-                    "drillDownConfig": {}
-                },
-                {
-                    "name": "537bb650-1d29-4eaf-88de-17f6827713b4",
-                    "displayName": "Top 10  TTP",
-                    "description": "Shows the top 10 most frequent TTP with count of indicators.",
-                    "chartDatasource": {
-                        "dashboardQuery": "09e93a99-d067-4529-852d-950ee1935680",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "columnDefs": [
-                            {
-                                "field": "ttp",
-                                "header": "TTP"
-                            },
-                            {
-                                "field": "count",
-                                "header": "COUNT"
-                            }
-                        ],
-                        "groupingType": "Off"
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "53808bb4dfa278cd2ffa86b5f11e56d2ba83114906763808eaf162d9ed7cbbfd",
-                    "drillDownConfig": {}
-                },
-                {
-                    "name": "d66dca80-78bc-4f41-8530-e6be3fbf4d07",
-                    "displayName": "Green Handling Condition Indicators",
-                    "description": "Count of Green handling condition indicators in CYJAX Threat Intelligence.",
-                    "chartDatasource": {
-                        "dashboardQuery": "7c90ca0e-e008-45b2-a5a2-38edd924e387",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "TEXT",
-                                "label": "IOCs",
-                                "field": "count",
-                                "metricTrendConfig": {
-                                    "metricFormat": "METRIC_FORMAT_NUMBER",
-                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
-                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
-                                }
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off",
-                        "thresholdColoringEnabled": true,
-                        "visualMaps": [
-                            {
-                                "visualMapType": "PIECEWISE",
-                                "pieces": [
-                                    {
-                                        "min": "0",
-                                        "max": "1000000",
-                                        "color": "#4aa207"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "37741326cf4f5d5fa914b689295a09063b7c7bbf76b71920ac280da5bfd1ecac",
-                    "drillDownConfig": {
-                        "leftDrillDowns": [
-                            {
-                                "id": "B8F7B317-76EC-48C5-B9D6-AA415F713082",
-                                "displayName": "IOCs",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"GREEN\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid\r\n"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "56291627-6cee-4c53-b90a-e4ea8200669b",
-                    "displayName": "Amber Handling Condition Indicators",
-                    "description": "Count of Amber handling condition indicators in CYJAX Threat Intelligence.",
-                    "chartDatasource": {
-                        "dashboardQuery": "7504fb31-a54c-4575-b81e-ad12c0e64e7f",
-                        "dataSources": [
-                            "ENTITY"
-                        ]
-                    },
-                    "visualization": {
-                        "series": [
-                            {
-                                "seriesType": "TEXT",
-                                "label": "IOCs",
-                                "field": "count",
-                                "metricTrendConfig": {
-                                    "metricFormat": "METRIC_FORMAT_NUMBER",
-                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
-                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
-                                }
-                            }
-                        ],
-                        "xAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "yAxes": [
-                            {
-                                "axisType": "VALUE"
-                            }
-                        ],
-                        "legends": [
-                            {
-                                "legendOrient": "HORIZONTAL"
-                            }
-                        ],
-                        "groupingType": "Off",
-                        "thresholdColoringEnabled": true,
-                        "visualMaps": [
-                            {
-                                "visualMapType": "PIECEWISE",
-                                "pieces": [
-                                    {
-                                        "min": "0",
-                                        "max": "1000000",
-                                        "color": "#eb730a"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "2cfcff6bbc3a304c9273594948dcb76a196d11baf55221630c6dc52940981522",
-                    "drillDownConfig": {
-                        "leftDrillDowns": [
-                            {
-                                "id": "00FF8D78-D2AE-474E-90AC-D862AEAD2A0E",
-                                "displayName": "IOCs",
-                                "customSettings": {
-                                    "newTab": true,
-                                    "query": {
-                                        "query": "graph.metadata.vendor_name = \"Cyjax\"\r\ngraph.metadata.product_name = \"Cyjax\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"AMBER\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid\r\n"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "9fe44f60-2554-41ea-a3af-72e09553b240",
+                    "name": "cd685546-2cec-4574-b5ba-3306d41bf9cd",
                     "displayName": "Top 10 Countries",
                     "description": "Shows the top 10 most frequent countries with count of indicators.",
                     "chartDatasource": {
-                        "dashboardQuery": "683de265-fcd6-41b8-8bf2-63a8fc01ffc4",
+                        "dashboardQuery": "a6bcd180-30df-45b3-bdab-65bfc4c16880",
                         "dataSources": [
                             "ENTITY"
                         ]
@@ -1416,134 +856,573 @@
                         "groupingType": "Off"
                     },
                     "tileType": "TILE_TYPE_VISUALIZATION",
-                    "etag": "0451c83abc83acaaa3b8a3893b552a8b80b35ec46b96fc8a22fb3f63eabca2b0",
+                    "etag": "70275ae7a102fdecb7fd51c522a1347ad61db5f49bc2d808c7fb2e8e905091fd",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "e137826e-4105-4c49-9190-e800a2d8073a",
+                    "displayName": "markdown",
+                    "visualization": {
+                        "markdown": {
+                            "content": "## Detailed Tables\n---\nComprehensive tables for in-depth analysis. Drill down into individual IOCs.",
+                            "properties": {
+                                "backgroundColor": "transparent"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_MARKDOWN",
+                    "etag": "770d45b84b29dde366f617e024d9960e75c3412a33a3969d5256a18c9a5d38a9"
+                },
+                {
+                    "name": "69c5b98f-b81e-40fa-826f-b621065f0937",
+                    "displayName": "Enriched indicators Overview",
+                    "description": "Comprehensive investigation table displaying CYJAX indicator enrichment for in-depth analysis.",
+                    "chartDatasource": {
+                        "dashboardQuery": "9ec711fb-acc0-4557-a990-2a48ec16561c",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "columnDefs": [
+                            {
+                                "field": "ioc",
+                                "header": "IOC [DRILL DOWN]"
+                            },
+                            {
+                                "field": "type",
+                                "header": "Type"
+                            },
+                            {
+                                "field": "description",
+                                "header": "Description"
+                            },
+                            {
+                                "field": "handling_condition",
+                                "header": "Handling Condition"
+                            },
+                            {
+                                "field": "source",
+                                "header": "Source [REDIRECTION LINK]"
+                            },
+                            {
+                                "field": "asn_org",
+                                "header": "ASN Organization"
+                            },
+                            {
+                                "field": "asn_num",
+                                "header": "ASN Number"
+                            },
+                            {
+                                "field": "geo_country_code",
+                                "header": "Geo Country Code"
+                            },
+                            {
+                                "field": "geo_country_name",
+                                "header": "Geo Country Name"
+                            },
+                            {
+                                "field": "uuid",
+                                "header": "UUID"
+                            },
+                            {
+                                "field": "last_seen",
+                                "header": "Last Seen"
+                            },
+                            {
+                                "field": "count",
+                                "header": "Count"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "258e9cac8ce2d4ed5f8c7d4809782de53c53e19dbdd52ef20e5f5322234b4bb2",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "1FBFFBE3-D341-4C22-9882-3DB1CE06AA8D",
+                                "displayName": "IOC",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "leftClickColumn": "ioc",
+                                    "query": {
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.entity.file.md5 = ${ioc} or\r\ngraph.entity.file.sha1 = ${ioc} or\r\ngraph.entity.file.sha256 = ${ioc} or\r\ngraph.entity.file.ssdeep = ${ioc} or\r\ngraph.entity.ip = ${ioc} or\r\ngraph.entity.url = ${ioc} or\r\ngraph.entity.email = ${ioc} or\r\ngraph.entity.user.email_addresses= ${ioc}"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "11318471-79C8-46F2-A740-DC7800613E56",
+                                "displayName": "Source Link",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "leftClickColumn": "source",
+                                    "externalLink": {
+                                        "link": "${source}"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "5cde7f46-f930-45cf-a714-40eded1cc5dc",
+                    "displayName": "Green Handling Condition Indicators",
+                    "description": "Count of Green handling condition indicators in CYJAX Threat Intelligence.",
+                    "chartDatasource": {
+                        "dashboardQuery": "73c9b134-e3f8-4acd-bf7c-0db968880152",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "1000000",
+                                        "color": "#4aa207"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "92c11787806d32ebedbc148ce1f8f59932c6230875604a17fedf16c0251ac2f2",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "B8F7B317-76EC-48C5-B9D6-AA415F713082",
+                                "displayName": "IOCs",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "query": {
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"GREEN\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid\r\n"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "f1ef4a23-fad1-46e5-bf46-a0f49dee63c6",
+                    "displayName": "Amber Handling Condition Indicators",
+                    "description": "Count of Amber handling condition indicators in CYJAX Threat Intelligence.",
+                    "chartDatasource": {
+                        "dashboardQuery": "3969a05d-126d-4aa6-8ff8-826a639ee3dc",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "1000000",
+                                        "color": "#eb730a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "b5e9342e61482847f51841fd046450e5a10fd88d917e6cdcd2e331d4720e2861",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "00FF8D78-D2AE-474E-90AC-D862AEAD2A0E",
+                                "displayName": "IOCs",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "query": {
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"AMBER\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid\r\n"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "80569c5a-ad4c-4746-882f-9aac04d01fd3",
+                    "displayName": "markdown",
+                    "visualization": {
+                        "markdown": {
+                            "content": "## Top 10 Analytics\n---\nKey insights into the most prevalent entities in CYJAX Threat Intelligence data. Analyze top organizations, ASNs, and geographic locations.",
+                            "properties": {
+                                "backgroundColor": "transparent"
+                            }
+                        }
+                    },
+                    "tileType": "TILE_TYPE_MARKDOWN",
+                    "etag": "a4f01e3b4d4070a4f4f6e333f28d28517262794f98360618c8c82116164d4f92"
+                },
+                {
+                    "name": "4254e342-2e5b-476c-b13a-18e19ef68089",
+                    "displayName": "White Handling Condition Indicators",
+                    "description": "Count of White handling condition indicators in CYJAX Threat Intelligence.",
+                    "chartDatasource": {
+                        "dashboardQuery": "fa3890a4-e319-41f5-a9a4-11cf5ed1695a",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "Indicators",
+                                "field": "count",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "8968a4aa2247729b15574835fc52c7995b6eb3c03d6cc22501ff5f3065522c1e",
+                    "drillDownConfig": {
+                        "leftDrillDowns": [
+                            {
+                                "id": "C2BED4D0-C942-448F-A41A-ACEDCFC2B197",
+                                "displayName": "IOCs",
+                                "customSettings": {
+                                    "newTab": true,
+                                    "query": {
+                                        "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"WHITE\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch: \r\n    $entityid"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "353caaad-5a1b-4a2c-8a1b-275c6390b473",
+                    "displayName": "Indicator Type Distribution ",
+                    "description": " Show the count of indicators by each type (Domain, IP, FILE, URL or USER)",
+                    "chartDatasource": {
+                        "dashboardQuery": "8a76826a-ec5f-405e-9d5f-43b55c719392",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "PIE",
+                                "encode": {
+                                    "value": "count",
+                                    "itemName": "ioc_type"
+                                },
+                                "dataLabel": {
+                                    "show": true
+                                },
+                                "radius": [
+                                    "40%",
+                                    "70%"
+                                ],
+                                "itemStyle": {
+                                    "color": "b=>{const {map:c}=OOf(this.theme);b=JQf(b,nPf(this.form.controls.seriesConfig.getRawValue()),a);a=b.nextColorIndex;let d;return(d=\nc.get(b.color))!=null?d:b.color}"
+                                },
+                                "itemColors": {
+                                    "colors": [
+                                        {
+                                            "key": "FILE",
+                                            "value": {
+                                                "color": "#1a73e8",
+                                                "label": "FILE"
+                                            }
+                                        },
+                                        {
+                                            "key": "DOMAIN_NAME",
+                                            "value": {
+                                                "color": "#eb730a",
+                                                "label": "DOMAIN_NAME"
+                                            }
+                                        },
+                                        {
+                                            "key": "IP_ADDRESS",
+                                            "value": {
+                                                "color": "#ec453b",
+                                                "label": "IP_ADDRESS"
+                                            }
+                                        },
+                                        {
+                                            "key": "URL",
+                                            "value": {
+                                                "color": "#10a3b7",
+                                                "label": "URL"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "top": 12,
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off"
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "4cceeebef7a98a0208a6f36b86be5c985acbcf78001080139afc9ccc8cf90027",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "9ea058df-e2c8-400c-a968-58d485ed5abb",
+                    "displayName": "Handling Condition Breakdown",
+                    "description": "Display chart for indicator counts by Handling condition (RED, AMBER, GREEN, WHITE)",
+                    "chartDatasource": {
+                        "dashboardQuery": "524ec7e8-677c-47c6-a586-51d808ac649e",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesName": "none",
+                                "seriesType": "BAR",
+                                "encode": {
+                                    "x": "handling_condition",
+                                    "y": "count"
+                                },
+                                "dataLabel": {},
+                                "itemStyle": {
+                                    "color": "#1a73e8"
+                                },
+                                "seriesUniqueValue": "none"
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "CATEGORY",
+                                "displayName": "HANDLING CONDITION"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE",
+                                "displayName": "COUNT"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "1000",
+                                        "color": "#1a73e8"
+                                    },
+                                    {
+                                        "min": "1001",
+                                        "max": "5000",
+                                        "color": "#eb730a"
+                                    },
+                                    {
+                                        "min": "5001",
+                                        "max": "10000",
+                                        "color": "#10a3b7"
+                                    },
+                                    {
+                                        "min": "10000",
+                                        "max": "50000",
+                                        "color": "#923ef9"
+                                    },
+                                    {
+                                        "min": "50000",
+                                        "max": "100000",
+                                        "color": "#e51f8f"
+                                    },
+                                    {
+                                        "min": "100000",
+                                        "max": "1000000",
+                                        "color": "#ec453b"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "98b90b85f4f865790c6b946b62d70efa2eeb16d8f6dad8711b725c9714c440ad",
+                    "drillDownConfig": {}
+                },
+                {
+                    "name": "2f49532d-2d61-4f46-803a-fcf51215bdbe",
+                    "displayName": "Total Indicators",
+                    "description": "Display total Indicators ingested from CYJAX Threat Intelligence.",
+                    "chartDatasource": {
+                        "dashboardQuery": "79f21747-5939-4885-9566-16ac6c430e20",
+                        "dataSources": [
+                            "ENTITY"
+                        ]
+                    },
+                    "visualization": {
+                        "series": [
+                            {
+                                "seriesType": "TEXT",
+                                "label": "IOCs",
+                                "field": "total_indicators",
+                                "metricTrendConfig": {
+                                    "metricFormat": "METRIC_FORMAT_NUMBER",
+                                    "metricDisplayTrend": "METRIC_DISPLAY_TREND_PERCENTAGE",
+                                    "metricTrendType": "METRIC_TREND_TYPE_REGULAR"
+                                }
+                            }
+                        ],
+                        "xAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "yAxes": [
+                            {
+                                "axisType": "VALUE"
+                            }
+                        ],
+                        "legends": [
+                            {
+                                "legendOrient": "HORIZONTAL"
+                            }
+                        ],
+                        "groupingType": "Off",
+                        "thresholdColoringEnabled": true,
+                        "visualMaps": [
+                            {
+                                "visualMapType": "PIECEWISE",
+                                "pieces": [
+                                    {
+                                        "min": "0",
+                                        "max": "1000000",
+                                        "color": "#1a73e8"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "tileType": "TILE_TYPE_VISUALIZATION",
+                    "etag": "f3478ffefd482ae76bdbb71e331cd3801d1985a22182b5c75925e7269b74ab01",
                     "drillDownConfig": {}
                 }
             ],
             "dashboardQueries": [
                 {
-                    "name": "1915a69e-2023-46ad-82d2-4dac765a325b",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id\r\n$handling_condition = graph.metadata.threat.detection_fields[\"handling_condition\"]\r\n$handling_condition != \"\"\r\nmatch:\r\n    $handling_condition\r\noutcome:\r\n    $count = count_distinct($entity_id)\r\norder:\r\n    $count desc\r\nlimit:\r\n    4\r\n\r\n\r\n",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "38a2f31a7e5dd35a5e6bab1116cc8b705d87e28d69a70998ff5dfa2891685814"
-                },
-                {
-                    "name": "a5b325c4-c5f4-4685-9057-aaaef0e3aefe",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"RED\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "49676409985c9b454ee25a303df23c9c697200767af77fa834b617be35e0a6ed"
-                },
-                {
-                    "name": "7c90ca0e-e008-45b2-a5a2-38edd924e387",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"GREEN\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "6f6436c3eb5a6301daf8492be7680ba672e23f3acb427a5543a023b745e761de"
-                },
-                {
-                    "name": "8dd4e763-5b54-40eb-9fe4-26e5f5adb17d",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$asn_num = graph.entity.artifact.asn\r\n$asn_num > 0\r\n$asn_str=strings.concat(\"AS\",cast.as_string(graph.entity.artifact.asn))\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $asn_num\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n    $asn=array_distinct($asn_str)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "dc6c66628b7d563fccf62ce4014c192d267433cfe75f53f2268a16ceede9b4bb"
-                },
-                {
-                    "name": "683de265-fcd6-41b8-8bf2-63a8fc01ffc4",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$country = graph.entity.ip_geo_artifact.location.country_or_region\r\n$country != \"\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $country\r\noutcome:\r\n    $count = count_distinct($entityid)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "02dc3f8e46fcd288dccf30ebcd7ceb8d8b8e53254c827df1a8477d545ce3868d"
-                },
-                {
-                    "name": "91606017-978a-4b4f-8f1b-541a5b97cfec",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$date=timestamp.get_timestamp(graph.metadata.interval.start_time.seconds, \"%Y-%m-%d\")\r\n$verdict = graph.metadata.threat.threat_verdict\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $date, $verdict\r\noutcome:\r\n    $count=count_distinct($entityid)\r\norder:\r\n    $date asc\r\nlimit:\r\n    10000",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "5633a3632b8888703350f13c14826374ed929ea997d220af879ca3bb05207718"
-                },
-                {
-                    "name": "008f4ddb-010b-4fab-8847-0ec38d635630",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id\r\n$industry= graph.metadata.threat.associations.industries_affected\r\n$industry!= \"\"\r\nmatch:\r\n    $industry\r\noutcome:\r\n    $count = count_distinct($entity_id)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "e1117b763e9179fd77af26e1edbd2aded139e0487a76c2c393628f41a52ad76f"
-                },
-                {
-                    "name": "69c7250a-9bec-4682-9442-d913d55c273d",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.last_discovered_time.seconds > 0\r\n$type = graph.metadata.entity_type\r\n$ioc = strings.coalesce(\r\ngraph.entity.hostname,\r\ngraph.entity.file.md5,\r\ngraph.entity.file.sha1,\r\ngraph.entity.file.sha256,\r\ngraph.entity.file.ssdeep,\r\ngraph.entity.ip,\r\ngraph.entity.url,\r\ngraph.entity.email)\r\n$uuid = graph.metadata.product_entity_id\r\n$description = graph.metadata.description\r\n$handling_condition = graph.metadata.threat.threat_verdict\r\n$source = graph.metadata.source_labels[\"source\"]\r\n$asn_org = if(graph.metadata.threat.detection_fields[\"asn_organization\"]!=\"\",graph.metadata.threat.detection_fields[\"asn_organization\"], \"-\")\r\n$asn_num = if(graph.entity.artifact.asn>0,graph.entity.artifact.asn, 0)\r\n$geo_country_code = if(graph.metadata.threat.associations.country_code!=\"\", graph.metadata.threat.associations.country_code, \"-\")\r\n$geo_country_name = if(graph.entity.ip_geo_artifact.location.country_or_region!=\"\", graph.entity.ip_geo_artifact.location.country_or_region, \"-\")\r\n$geo_city = if(graph.entity.ip_geo_artifact.location.city!=\"\", graph.entity.ip_geo_artifact.location.city, \"-\")\r\n$last_seen_timestamp = timestamp.get_timestamp(graph.metadata.threat.last_discovered_time.seconds, \"%Y-%m-%d %H:%M:%S\")\r\nmatch:\r\n    $ioc, $type, $description, $handling_condition, $source, $asn_org, $asn_num, $geo_country_code, $geo_country_name, $uuid\r\noutcome:\r\n    $last_seen = window.last(graph.metadata.threat.last_discovered_time.seconds, $last_seen_timestamp)\r\n    $count = count_distinct($uuid)\r\norder:\r\n    $last_seen desc\r\nlimit:\r\n    10000",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "4a366e428b386bcedb59cf15cc3a6ce6c8a4e13311ac458c4a92c7b64a33a7b9"
-                },
-                {
-                    "name": "860d1dd5-9939-4131-a089-91003c049a49",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"WHITE\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "02e5c68ccb841f2913ecce157b02623c0f1c982c3fea983fd408406713b91c3f"
-                },
-                {
-                    "name": "7ff513a6-ccb2-40fc-8771-87fcdcdd15ef",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$ioc_type = graph.metadata.entity_type\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $ioc_type\r\noutcome:\r\n    $count = count_distinct($entityid)\r\norder:\r\n    $count desc\r\nlimit:\r\n    30",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "9b8ac116d0fdbd551c4797bb9ea28e2990826fe81f22113e4cbc435bc3bac664"
-                },
-                {
-                    "name": "3e8ac521-d8d1-4f59-9261-b786f117ec33",
-                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id \r\noutcome:\r\n    $total_indicators = count_distinct($entity_id)",
-                    "input": {
-                        "relativeTime": {
-                            "timeUnit": "DAY",
-                            "startTimeVal": "90"
-                        }
-                    },
-                    "etag": "e5751ab0f3e547e45d522a4213fb68838ff70180792ac2b5e5ed78a8531ac51a"
-                },
-                {
-                    "name": "09e93a99-d067-4529-852d-950ee1935680",
+                    "name": "dec1e9fd-4e21-41c3-9479-929037468e89",
                     "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id\r\n$ttp = graph.metadata.threat.associations.tags\r\n$ttp != \"\"\r\nmatch:\r\n    $ttp\r\noutcome:\r\n    $count = count_distinct($entity_id)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
                     "input": {
                         "relativeTime": {
@@ -1551,10 +1430,65 @@
                             "startTimeVal": "90"
                         }
                     },
-                    "etag": "073f453d4123495db93cf0c64093db31cc97f711a6b5d5fc9f731442167eec9f"
+                    "etag": "8c421264100b959ecc2d76ab6374e5e19e554ce560c3ce5d2e4d8fc5677a4122"
                 },
                 {
-                    "name": "899298ec-9bcd-41cc-bb75-d69026e73c81",
+                    "name": "bafba1bd-33aa-4dc6-8984-2f5fcdfbee03",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$asn_num = graph.entity.artifact.asn\r\n$asn_num > 0\r\n$asn_str=strings.concat(\"AS\",cast.as_string(graph.entity.artifact.asn))\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $asn_num\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n    $asn=array_distinct($asn_str)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "6d402616b401f5fed77bcb71fae4bedc9171674df776cf10f59f44017eb56d83"
+                },
+                {
+                    "name": "74433396-ed5f-45f1-9f5a-025e082c42ec",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$date=timestamp.get_timestamp(graph.metadata.interval.start_time.seconds, \"%Y-%m-%d\")\r\n$verdict = graph.metadata.threat.threat_verdict\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $date, $verdict\r\noutcome:\r\n    $count=count_distinct($entityid)\r\norder:\r\n    $date asc\r\nlimit:\r\n    10000",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "0eb9cd5251ae6da725c2fc3dd8e81e9e669f4a8c2347e80f672580e863fec3db"
+                },
+                {
+                    "name": "fa27474e-bbd9-4386-b0f4-657deb1514e6",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id\r\n$industry= graph.metadata.threat.associations.industries_affected\r\n$industry!= \"\"\r\nmatch:\r\n    $industry\r\noutcome:\r\n    $count = count_distinct($entity_id)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "9a8fab97b289cf7cdc6d0a6a0b0dc77a91021e97fd3390b917fc91dbf31dd20c"
+                },
+                {
+                    "name": "524ec7e8-677c-47c6-a586-51d808ac649e",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id\r\n$handling_condition = graph.metadata.threat.detection_fields[\"handling_condition\"]\r\n$handling_condition != \"\"\r\nmatch:\r\n    $handling_condition\r\noutcome:\r\n    $count = count_distinct($entity_id)\r\norder:\r\n    $count desc\r\nlimit:\r\n    4\r\n\r\n\r\n",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "1004ffb95a99700fc59d2e429804ac8eb1890a0b19ce8b236b0c000a96ca1cc4"
+                },
+                {
+                    "name": "f72d11ac-b442-4e4c-bce0-7930cc64fd21",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"RED\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "d40c617af01da9413ef4bbed31d5c55488e30b10932e80b9bb6bc0380e00b72a"
+                },
+                {
+                    "name": "0de6e318-fe42-42f9-bfe9-a442b6df1310",
                     "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$ioc = strings.coalesce(\r\ngraph.entity.hostname,\r\ngraph.entity.file.md5,\r\ngraph.entity.file.sha1,\r\ngraph.entity.file.sha256,\r\ngraph.entity.file.ssdeep,\r\ngraph.entity.ip,\r\ngraph.entity.url,\r\ngraph.entity.email)\r\n$uuid = graph.metadata.product_entity_id\r\n$type = graph.metadata.entity_type\r\n$description = graph.metadata.description\r\n$handling_condition = graph.metadata.threat.threat_verdict\r\n$source = graph.metadata.source_labels[\"source\"]\r\n$asn_org = if(graph.metadata.threat.detection_fields[\"asn_organization\"]!=\"\",graph.metadata.threat.detection_fields[\"asn_organization\"], \"-\")\r\n$asn_num = if(graph.entity.artifact.asn>0,graph.entity.artifact.asn, 0)\r\n$geo_country_code = if(graph.metadata.threat.associations.country_code!=\"\", graph.metadata.threat.associations.country_code, \"-\")\r\n$geo_country_name = if(graph.entity.ip_geo_artifact.location.country_or_region!=\"\", graph.entity.ip_geo_artifact.location.country_or_region, \"-\")\r\n$discovered_at = timestamp.get_timestamp(graph.metadata.threat.first_discovered_time.seconds, \"%Y-%m-%d %H:%M:%S\")\r\nmatch:\r\n    $ioc, $type, $description, $handling_condition, $source, $asn_org, $asn_num, $geo_country_code, $geo_country_name, $uuid\r\noutcome:\r\n    $discovered_time = window.last(graph.metadata.interval.start_time.seconds, $discovered_at)\r\n    $count = count_distinct($uuid)\r\norder:\r\n    $discovered_time desc\r\nlimit:\r\n    10000",
                     "input": {
                         "relativeTime": {
@@ -1562,10 +1496,21 @@
                             "startTimeVal": "90"
                         }
                     },
-                    "etag": "21f8ba783848d6a61b238de3e37a330b2271f8071516ecc653729ed92988ab47"
+                    "etag": "21740c03332d7841038fb083549076e31044f21caedbe1cb31b47b118b43d6cf"
                 },
                 {
-                    "name": "7504fb31-a54c-4575-b81e-ad12c0e64e7f",
+                    "name": "73c9b134-e3f8-4acd-bf7c-0db968880152",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"GREEN\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "6f9c2172165eb4c99b512614bfbc99ea2c57f26a77be024436b055e287857b57"
+                },
+                {
+                    "name": "3969a05d-126d-4aa6-8ff8-826a639ee3dc",
                     "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"AMBER\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
                     "input": {
                         "relativeTime": {
@@ -1573,7 +1518,62 @@
                             "startTimeVal": "90"
                         }
                     },
-                    "etag": "6b851186f6b017ddb1e2f0c30f00926caa166ca62365d111614faa414852b8a0"
+                    "etag": "b8b13396d5985ee0e2ca1ce3821eb45fcc2762ca2fbe912723e5b926cf0095d2"
+                },
+                {
+                    "name": "a6bcd180-30df-45b3-bdab-65bfc4c16880",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$country = graph.entity.ip_geo_artifact.location.country_or_region\r\n$country != \"\"\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $country\r\noutcome:\r\n    $count = count_distinct($entityid)\r\norder:\r\n    $count desc\r\nlimit:\r\n    10",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "419d7fee47fe88b60b227a31e71ef651720030a00ac4401f7c5f8763d3d19914"
+                },
+                {
+                    "name": "9ec711fb-acc0-4557-a990-2a48ec16561c",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.last_discovered_time.seconds > 0\r\n$type = graph.metadata.entity_type\r\n$ioc = strings.coalesce(\r\ngraph.entity.hostname,\r\ngraph.entity.file.md5,\r\ngraph.entity.file.sha1,\r\ngraph.entity.file.sha256,\r\ngraph.entity.file.ssdeep,\r\ngraph.entity.ip,\r\ngraph.entity.url,\r\ngraph.entity.email)\r\n$uuid = graph.metadata.product_entity_id\r\n$description = graph.metadata.description\r\n$handling_condition = graph.metadata.threat.threat_verdict\r\n$source = graph.metadata.source_labels[\"source\"]\r\n$asn_org = if(graph.metadata.threat.detection_fields[\"asn_organization\"]!=\"\",graph.metadata.threat.detection_fields[\"asn_organization\"], \"-\")\r\n$asn_num = if(graph.entity.artifact.asn>0,graph.entity.artifact.asn, 0)\r\n$geo_country_code = if(graph.metadata.threat.associations.country_code!=\"\", graph.metadata.threat.associations.country_code, \"-\")\r\n$geo_country_name = if(graph.entity.ip_geo_artifact.location.country_or_region!=\"\", graph.entity.ip_geo_artifact.location.country_or_region, \"-\")\r\n$geo_city = if(graph.entity.ip_geo_artifact.location.city!=\"\", graph.entity.ip_geo_artifact.location.city, \"-\")\r\n$last_seen_timestamp = timestamp.get_timestamp(graph.metadata.threat.last_discovered_time.seconds, \"%Y-%m-%d %H:%M:%S\")\r\nmatch:\r\n    $ioc, $type, $description, $handling_condition, $source, $asn_org, $asn_num, $geo_country_code, $geo_country_name, $uuid\r\noutcome:\r\n    $last_seen = window.last(graph.metadata.threat.last_discovered_time.seconds, $last_seen_timestamp)\r\n    $count = count_distinct($uuid)\r\norder:\r\n    $last_seen desc\r\nlimit:\r\n    10000",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "91159c234886d924a003e5c894250fa953151e59d8c7dd209924386d10ed611a"
+                },
+                {
+                    "name": "fa3890a4-e319-41f5-a9a4-11cf5ed1695a",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\ngraph.metadata.threat.detection_fields[\"handling_condition\"] = \"WHITE\"\r\n$entityid = graph.metadata.product_entity_id\r\noutcome:\r\n    $count = count_distinct($entityid)\r\n",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "1cece561ef82fdcd13de0f260181e48f0f881cb409f5178df389fa86bf4d8198"
+                },
+                {
+                    "name": "8a76826a-ec5f-405e-9d5f-43b55c719392",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$ioc_type = graph.metadata.entity_type\r\n$entityid = graph.metadata.product_entity_id\r\nmatch:\r\n    $ioc_type\r\noutcome:\r\n    $count = count_distinct($entityid)\r\norder:\r\n    $count desc\r\nlimit:\r\n    30",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "3bd42baafd191928ae89b05fe60edb158d5e550ac9751cec390aa21d597efe9d"
+                },
+                {
+                    "name": "79f21747-5939-4885-9566-16ac6c430e20",
+                    "query": "graph.metadata.vendor_name = \"CYJAX\"\r\ngraph.metadata.product_name = \"CYJAX\"\r\n$entity_id = graph.metadata.product_entity_id \r\noutcome:\r\n    $total_indicators = count_distinct($entity_id)",
+                    "input": {
+                        "relativeTime": {
+                            "timeUnit": "DAY",
+                            "startTimeVal": "90"
+                        }
+                    },
+                    "etag": "5a15f7b637e3e3b56c03289222a5844ecb19994765599e77a0afc5ef8f69ac7c"
                 }
             ]
         }
